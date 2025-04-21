@@ -10,6 +10,7 @@ Every time-stamp has a Class ".a", and an atrribute called "title".<br>
 The "title" attribute is what holds the actual raw time-stamps (as a string).<br>
 
 My approach:<br>
+
 1. Load the website to show the latest articles (only shows 30 articles at a time).<br>
 2. Grab the time-stamps ("title" attributes) for these 30 articles.<br>
 3. Push these time-stamps to an array called "timeStamps".<br>
