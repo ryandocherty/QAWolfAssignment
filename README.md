@@ -17,6 +17,6 @@ My approach:<br>
 5. Click the "Next" link to display the next 30 articles.<br>
 6. Repeat steps 2, 3, and 4 until the "timeStamps" array contains 100 items/elements.<br>
 7. Create a new array called "sortedTimeStamps".<br>
-8. Add the contents of "timeStamps" to the new array, while also sorting the items (time-stamps) from newest to oldest.<br>
+8. Add the contents of "timeStamps" to the new array, while also sorting the items from newest to oldest.<br>
 9. Sequentially compare each element in "timeStamps" to "sortedTimeStamps".<br>
 10. Output the appropriate message depending on the outcome.<br>
