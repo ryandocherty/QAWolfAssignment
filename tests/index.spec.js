@@ -26,8 +26,12 @@ My approach:
 10. Output the appropriate message depending on the outcome.
 */
 
+test("Hacker News: Validate that the first 100 articles are sorted by newest to oldest", async () => {
+  await sortHackerNewsArticles();
+});
+
 async function sortHackerNewsArticles() {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
   const page = await context.newPage();
 
@@ -119,7 +123,3 @@ async function sortHackerNewsArticles() {
   await context.close();
   await browser.close();
 }
-
-(async () => {
-  await sortHackerNewsArticles();
-})();
