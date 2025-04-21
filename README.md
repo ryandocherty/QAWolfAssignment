@@ -7,7 +7,7 @@ Task:<br>
 My notes:<br>
 [Hacker News](https://news.ycombinator.com/newest) has time-stamps in the CSS for each article.<br>
 Every time-stamp has a Class ".a", and an atrribute called "title".<br>
-The "title" attribute is what holds the actual raw time-stamps (as a string).<br
+The "title" attribute is what holds the actual raw time-stamps (as a string).<br>
 
 My approach:<br>
 1. Load the website to show the latest articles (only shows 30 articles at a time).<br>
