@@ -2,7 +2,8 @@ import { test, expect, chromium } from "@playwright/test";
 
 /*
 Author: Ryan Docherty
-LinkedIn: www.linkedin.com/in/ryansdocherty/
+LinkedIn: https://linkedin.com/in/ryansdocherty/
+GitHub: https://github.com/ryandocherty
 
 
 In this test, I want to assert that the first 100 articles 
