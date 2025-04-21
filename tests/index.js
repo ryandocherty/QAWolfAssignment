@@ -18,12 +18,12 @@ My approach:
 2. Grab the time-stamps ("title" attributes) for these first 30 articles.
 3. Push these time-stamps to an array called "timeStamps".
 4. While pushing the time-stamps, check for duplicates and that there are no more than 100 items.
-5. Click the "Next" link to display the next 30 atricles.
+5. Click the "Next" link to display the next 30 articles.
 6. Repeat steps 2, 3, and 4 until the "timeStamps" array contains 100 items.
-8. Create a new array called "sortedTimeStamps".
-9. Add the contents of "timeStamps" to the new array, while also sorting the items (time-stamps) from newest to oldest.
-10. Compare each element sequentially in "timeStamps" to "sortedTimeStamps".
-11. Output the appropriate message depending on the outcome.
+7. Create a new array called "sortedTimeStamps".
+8. Add the contents of "timeStamps" to the new array, while also sorting the items (time-stamps) from newest to oldest.
+9. Compare each element sequentially in "timeStamps" to "sortedTimeStamps".
+10. Output the appropriate message depending on the outcome.
 */
 
 async function sortHackerNewsArticles() {
